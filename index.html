@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en">
+
+<!-- NAME ALL THE LIBRARY FILES -->
+  <head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+
+<!-- FIREBASE CONFIGURATION BEGINS -->
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCqXRcTzNWuLraASDpiq3K9DpFyHlSpwVc",
+    authDomain: "cruit--utter-a1.firebaseapp.com",
+    databaseURL: "https://cruit--utter-a1-default-rtdb.firebaseio.com",
+    projectId: "cruit--utter-a1",
+    storageBucket: "cruit--utter-a1.appspot.com",
+    messagingSenderId: "812949919520",
+    appId: "1:812949919520:web:5616d25815e5fa1e6f6945"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<!-- FIREBASE CONFIGURATION ENDS -->
+
+<!-- NAME ALL THE JS FILES -->
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+
+<!-- NAME STYLE.CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+
+<!-- NAME THE SKETCH FILE -->
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+
+</html>
